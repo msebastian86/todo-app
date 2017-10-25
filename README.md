@@ -1,3 +1,18 @@
+need to: 
+add package:
+"scripts": {
+  ...
+  "json-server": "json-server --watch db.json"
+}
+
+then:
+npm install json-server --save
+
+and then:
+npm run json-server
+
+------------------
+
 # TodoApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
