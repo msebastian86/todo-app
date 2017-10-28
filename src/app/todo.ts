@@ -1,7 +1,7 @@
 export class Todo {
 	id: number;
-	title: string = '';
-	complete: boolean = false;
+  	title = '';
+  	complete = false;
 
 	// specify property values during instatntiation
 	constructor(values: Object = {}){
