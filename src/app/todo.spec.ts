@@ -7,14 +7,12 @@ describe('Todo', () => {
   });
 
   it('should accept values in the constructor', () => {
-  	let todo = new Todo({
-  		title: 'hello',
-  		complete: true
-  	})
-  	
-	expect(todo.title).toEqual('hello');
-	expect(todo.complete).toEqual(true);
+    const todo = new Todo({
+      title: 'hello',
+      complete: true
+    });
+    expect(todo.title).toEqual('hello');
+    expect(todo.complete).toEqual(true);
   });
-
 
 });
